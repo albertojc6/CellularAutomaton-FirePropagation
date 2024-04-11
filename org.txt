@@ -36,4 +36,9 @@ FUNCIÓ DE TRANSICIÓ MAIN:
     - Si combustible a 0 i no hi havia estat, passar a incendiat
     - Default és per incendiar
 
-    
+OJO! -> Si s'ha cremat passar combustible a  -1, per diferenciar del 0
+
+
+Tasques:
+
+    -
