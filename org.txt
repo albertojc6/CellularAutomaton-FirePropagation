@@ -45,5 +45,6 @@ Tasques:
     -Objectiu CA -> Jordi
     -Objectiu Forest Fire -> Alberto
     -Explicació implementació -> Alberto/Jordi
+    -Traducció SDL -> Jordi(fire)/Alberto(fuel, humidity)
     -Resultats -> Alberto
     -Conclusions -> Jordi   
