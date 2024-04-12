@@ -1,5 +1,5 @@
-file title  : Catalunya
-data type   : string
+file title  : Humidity
+data type   : integer
 file type   : ascii
 columns     : 1
 rows        : 1
