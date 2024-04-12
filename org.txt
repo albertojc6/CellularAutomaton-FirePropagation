@@ -41,4 +41,9 @@ OJO! -> Si s'ha cremat passar combustible a  -1, per diferenciar del 0
 
 Tasques:
 
-    -
+    -Visualize humidity, fuel -> Jordi
+    -Objectiu CA -> Jordi
+    -Objectiu Forest Fire -> Alberto
+    -Explicació implementació -> Alberto/Jordi
+    -Resultats -> Alberto
+    -Conclusions -> Jordi   
