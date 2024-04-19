@@ -65,9 +65,9 @@ class ForestFireCA:
                 self._new_state[2, i, j] = self._humidity_func(cell_humidity, hood_fire)
     
 
-    def _evolve_fuel(self):
+    def _evolve_fire(self):
         """
-        Method to update fuel's layer from time (t) to (t + 1)
+        Method to update fire's layer from time (t) to (t + 1)
         """
 
         for i in range(self._rows):
@@ -78,9 +78,9 @@ class ForestFireCA:
                 self._new_state[0, i, j] = self._fire_func(cell_fire, cell_fuel, cell_humidity, hood_fire)
 
 
-    def _evolve_fire(self):
+    def _evolve_fuel(self):
         """
-        Method to update fire's layer from time (t) to (t + 1)
+        Method to update fuel's layer from time (t) to (t + 1)
         """
 
         for i in range(self._rows):
@@ -90,18 +90,22 @@ class ForestFireCA:
                     self._new_state[1, i, j] = self._fuel_func(cell_fire, cell_fuel)   
         
 
-    def simulate(self, t, layer = 'fire'):
+    def simulate(self, t):
         """
         Method to carry out a simulation of t units of time
 
-        Return: list with the bi-dimensional states of each generation step
+        Return: list with the bi-dimensional states of each generation step of each layer in the triplet (fire,fuel,humidity)
         """
-        layer_map = {'fire': 0, 'fuel': 1, 'humidity': 2}
-        evolution_steps = [self.state[layer_map[layer]].copy()]
+        fire_steps = [self.state[0].copy()]
+        fuel_steps = [self.state[1].copy()]
+        humidity_steps = [self.state[2].copy()]
+
         for _ in range(t):
             self.evolve()
-            evolution_steps.append(self.state[layer_map[layer]].copy())
-        return evolution_steps
+            fire_steps.append(self.state[0].copy())
+            fuel_steps.append(self.state[1].copy())
+            humidity_steps.append(self.state[2].copy())
+        return fire_steps,fuel_steps,humidity_steps
     
 
     def _fire_func(self, cell_fire, cell_fuel, cell_humidity, hood_fire):
