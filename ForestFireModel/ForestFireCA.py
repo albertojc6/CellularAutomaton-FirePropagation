@@ -105,7 +105,7 @@ class ForestFireCA:
             fire_steps.append(self.state[0].copy())
             fuel_steps.append(self.state[1].copy())
             humidity_steps.append(self.state[2].copy())
-        return fire_steps,fuel_steps,humidity_steps
+        return fire_steps, fuel_steps, humidity_steps
     
 
     def _fire_func(self, cell_fire, cell_fuel, cell_humidity, hood_fire):
