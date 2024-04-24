@@ -1,11 +1,11 @@
 file title  : Humidity
 data type   : integer
 file type   : ascii
-columns     : 1
-rows        : 1
+columns     : 100
+rows        : 100
 ref.system  : plane
-ref.units   : m
-unit dist.  : 15
+ref.units   : h.
+unit dist.  : 1
 min. X      : 0
 max. X      : 2
 min. Y      : 0
