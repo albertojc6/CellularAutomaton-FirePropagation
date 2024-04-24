@@ -1,7 +1,0 @@
-Tasques:
-
-    -Objectiu CA -> Jordi
-    -Explicació implementació -> Alberto (creacio dades +  notebook...) / Jordi(classe)
-    -Resultats -> Alberto
-    -Us de la IA -> Qui sigui
-    -Conclusions -> Jordi   
