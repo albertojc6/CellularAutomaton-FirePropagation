@@ -6,7 +6,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/albertojc6/CA-HEURISTICS">
-    <img src="images/logo.png" alt="Logo" width="200" height="130">
+    <img src="images/logo.png" alt="Logo" width="200" height="200">
 </a>
 
 <h3 align="center">Cellular Automaton Forest Fire Model</h3>
