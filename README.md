@@ -1,4 +1,4 @@
-# CA-Heuristics
+# Cellular Automaton -> Fire Propagation
 
 <a name="readme-top"></a>
 
