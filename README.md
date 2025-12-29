@@ -1,11 +1,13 @@
 # Cellular Automaton -> Fire Propagation
 
-<a name="readme-top"></a>
+<!-- PROJECT GIF -->
+<br />
+<div align="center">
+  <a href="https://github.com/albertojc6/CA-HEURISTICS">
+    <img src="ForestFireModel/layer_evolutions/fire_propagation.gif" alt="Fire Propagation Demo" width="400">
+  </a>
 
-<!-- PROJECT LOGO -->
-<img src="ForestFireModel/layer_evolutions/fire_propagation.gif" width="400" alt="Fire Propagation Demo">
-
-<h3 align="center">Cellular Automaton Forest Fire Model</h3>
+  <h3 align="center">Cellular Automaton Forest Fire Model</h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
