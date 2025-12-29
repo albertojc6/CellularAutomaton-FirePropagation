@@ -3,7 +3,7 @@
 <a name="readme-top"></a>
 
 <!-- PROJECT LOGO -->
-[![📹 **Watch Demo**](ForestFireModel/layer_evolutions/fire_propagation.gif)]
+<img src="ForestFireModel/layer_evolutions/fire_propagation.gif" width="400" alt="Fire Propagation Demo">
 
 <h3 align="center">Cellular Automaton Forest Fire Model</h3>
 </div>
