@@ -3,11 +3,7 @@
 <a name="readme-top"></a>
 
 <!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/albertojc6/CA-HEURISTICS">
-    <img src="images/logo.png" alt="Logo" width="200" height="200">
-</a>
+[![📹 **Watch Demo**](ForestFireModel/layer_evolutions/fire_propagation.gif)]
 
 <h3 align="center">Cellular Automaton Forest Fire Model</h3>
 </div>
